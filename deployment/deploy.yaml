@@ -19,3 +19,6 @@ spec:
         image: registry.gitlab.com/cape1/caepe-gitlab-reg:nginx
         ports:
         - containerPort: 80
+      imagePullSecrets:
+        - name: cape1  
+        
