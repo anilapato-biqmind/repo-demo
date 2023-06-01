@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: registry.gitlab.com/cape1/caepe-gitlab-reg:nginx
         ports:
         - containerPort: 80
