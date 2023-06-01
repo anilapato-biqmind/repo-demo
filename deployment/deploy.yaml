@@ -16,8 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/anil_apato/cape-quay-reg:nginx
+        image: nginx:1.14.2
         ports:
         - containerPort: 80
-      imagePullSecrets:
-      - name: quay
