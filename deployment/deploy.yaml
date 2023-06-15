@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 741540099531.dkr.ecr.ap-south-1.amazonaws.com/caepe-aws-reg:nginx
+        image: caepeazurereg.azurecr.io/nginx:nginx
         ports:
         - containerPort: 80
         
